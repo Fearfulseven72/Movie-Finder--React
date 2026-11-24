@@ -1,8 +1,8 @@
 import { useEffect, useState } from 'react';
-import Layout from './Layout';
 import MovieDetails from './pages/MovieDetails';
-import './App.css';
 import Home from './pages/Home';
+import Layout from './components/Layout';
+import './styles/App_css.css';
 
 function readRoute() {
   const params = new URLSearchParams(window.location.search);
